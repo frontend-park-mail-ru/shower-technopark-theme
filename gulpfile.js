@@ -25,7 +25,7 @@ gulp.task('default', ['styles'], () => {
 
 // Styles
 
-const ratios = ['16/10', '4/3', '5/3', '5/4', '16/9'];
+const ratios = ['8/5', '4/3', '6/5', '5/3', '5/4', '16/9'];
 const pkg = require('./package.json');
 const banner = ``;
 
