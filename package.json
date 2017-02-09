@@ -1,35 +1,17 @@
 {
-  "name": "shower-material",
-  "description": "Material theme for Shower HTML presentation engine",
-  "version": "1.0.11",
-  "author": {
-    "name": "Vadim Makeev",
-    "url": "http://pepelsbey.net/"
-  },
-  "homepage": "https://github.com/shower/material",
+  "name": "shower-technopark-theme",
+  "description": "\"Technopark\" theme for Shower HTML presentation engine",
+  "version": "0.0.1",
+  "homepage": "https://github.com/frontend-park-mail-ru/shower-technopark-theme",
   "repository": {
     "type": "git",
-    "url": "git://github.com/shower/material.git"
+    "url": "git://github.com/frontend-park-mail-ru/shower-technopark-theme.git"
   },
-  "bugs": {
-    "url": "http://github.com/shower/material/issues"
-  },
-  "license": "MIT",
   "keywords": [
     "shower",
-    "presentation",
-    "material",
+    "frontend",
+    "technopark",
     "theme"
-  ],
-  "files": [
-    "docs/**",
-    "fonts/**",
-    "images/**",
-    "pictures/**",
-    "styles/*.css",
-    "index.html",
-    "LICENSE.md",
-    "README.md"
   ],
   "devDependencies": {
     "autoprefixer": "^6.4.0",
@@ -47,7 +29,6 @@
   "scripts": {
     "dev": "gulp",
     "styles": "gulp styles",
-    "prepublish": "npm run styles",
-    "test": "path-exists styles/screen-16x10.css && path-exists styles/screen-4x3.css"
+    "prepublish": "npm run styles"
   }
 }

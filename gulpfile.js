@@ -25,15 +25,9 @@ gulp.task('default', ['styles'], () => {
 
 // Styles
 
-const ratios = ['16/10', '4/3'];
+const ratios = ['16/10', '4/3', '5/3', '5/4', '16/9'];
 const pkg = require('./package.json');
-const banner = `/**
- * ${ pkg.description }
- * ${ pkg.name } v${ pkg.version }, ${ pkg.homepage }
- * @copyright 2010–${ new Date().getFullYear() } ${ pkg.author.name }, ${ pkg.author.url }
- * @license ${ pkg.license }
- */
-`;
+const banner = ``;
 
 gulp.task('styles', () => {
 	ratios.forEach((ratio) => {
