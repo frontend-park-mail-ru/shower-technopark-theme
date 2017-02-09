@@ -12,7 +12,10 @@
 	position:relative;
 	z-index:1;
 	overflow:hidden;
-	padding:104px 112px 0 96px;
+	padding-top: 36px;
+	padding-right: 56px;
+	padding-left: 64px;
+	padding-bottom: 0;
 	width:$width;
 	height:$height;
 	background:white;
@@ -23,8 +26,8 @@
 
 	&::after {
 		position:absolute;
-		left:96px;
-		bottom:48px;
+		left:64px;
+		bottom:20px;
 		color:$light;
 		counter-increment:slide;
 		content:counter(slide);
