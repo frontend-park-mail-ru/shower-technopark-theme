@@ -22,6 +22,19 @@
 	line-height:2;
 	font-size:24px;
 
+	// Logo
+
+	&::before {
+		position:absolute;
+		transform: scale(.7);
+		height: 200px;
+		width: 260px;
+		right: 16px;
+		top: -38px;
+		background-image: url("../../images/logo_noback.png");
+		content:'';
+		}
+
 	// Number
 
 	&::after {
