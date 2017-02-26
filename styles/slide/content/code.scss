@@ -17,6 +17,7 @@ pre {
 	margin-bottom:1em;
 	counter-reset:code;
 	white-space:normal;
+	font-size: 88%;
 
 	// Inner
 
@@ -27,7 +28,7 @@ pre {
 		padding:0 0 0 96px;
 		width:calc(100% + 96px + 112px);
 		background:none;
-		line-height:2;
+		line-height:1.9;
 		white-space:pre;
 		tab-size:4;
 
@@ -76,4 +77,11 @@ pre {
 		color:$medium;
 		}
 
+	// Russian comment
+
+	.comment.rus {
+		font-family: Menlo, Monaco, "Courier New", monospace;
+		}
+
 	}
+
