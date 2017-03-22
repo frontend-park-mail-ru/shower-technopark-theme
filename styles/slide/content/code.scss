@@ -19,6 +19,15 @@ pre {
 	white-space:normal;
 	font-size: 88%;
 
+	&.short {
+		font-size:60%;
+
+		code {
+			width:calc(75%);
+			overflow-x:hidden;
+		}
+	}
+
 	// Inner
 
 	code {
